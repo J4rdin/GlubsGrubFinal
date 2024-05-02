@@ -92,8 +92,9 @@ public class ControladorDialogo : MonoBehaviour
             {
                 print("Bien????");
                 textoDialogo.text = "¡Muchas gracias!"; //Lo que dice al darle el pedido bien
-                dinero = dinero + 10 + propinas;
                 Player.item = "0000";
+                dinero = dinero + 10 + propinas;
+                
                 SpriteChoice = Random.Range(1, 4);
                 if (SpriteChoice == PreviousClient)
                 {
@@ -311,5 +312,14 @@ public class ControladorDialogo : MonoBehaviour
         }
     }
 
-   
+    public void DestroyFood()
+    {
+        GameObject[] objectsToDestroy = GameObject.FindGameObjectsWithTag(Player.item);
+
+        foreach (GameObject obj in objectsToDestroy)
+        {
+            Destroy(obj);
+        }
+    }
+
 }

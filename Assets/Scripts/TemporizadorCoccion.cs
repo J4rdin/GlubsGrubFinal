@@ -10,6 +10,8 @@ public class TemporizadorCoccion : MonoBehaviour
     private float tiempoRestante;
     private bool coccionEnCurso = false;
 
+    public GameObject TacoPrefab;
+
     [SerializeField]
     float x;
     [SerializeField]
@@ -40,6 +42,11 @@ public class TemporizadorCoccion : MonoBehaviour
                 {
                     Player.item = FoodID.PanTaco;
                     print(Player.item);
+                    Debug.Log("Item Changed");
+                    DestroyFood();
+                    Debug.Log("Food Destroyed");
+                    Instantiate(TacoPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+                    Debug.Log("Food Spawned");
                 }
 
                 if (Food.CompareTag("0100"))
@@ -56,6 +63,16 @@ public class TemporizadorCoccion : MonoBehaviour
                 Debug.Log("Cocción completa");
                 ReiniciarTemporizador();
             }
+        }
+    }
+
+    public void DestroyFood()
+    {
+        GameObject[] objectsToDestroy = GameObject.FindGameObjectsWithTag(Player.item);
+
+        foreach (GameObject obj in objectsToDestroy)
+        {
+            Destroy(obj);
         }
     }
 

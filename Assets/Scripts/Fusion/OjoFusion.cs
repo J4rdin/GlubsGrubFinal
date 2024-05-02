@@ -18,5 +18,4 @@ public class OjoFusion : MonoBehaviour
             print(Player.item);
         }
     }
-
 }

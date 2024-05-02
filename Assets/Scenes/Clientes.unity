@@ -2521,6 +2521,7 @@ GameObject:
   - component: {fileID: 1273641966}
   - component: {fileID: 1273641965}
   - component: {fileID: 1273641967}
+  - component: {fileID: 1273641968}
   m_Layer: 0
   m_Name: "Estaci\xF3n clientes"
   m_TagString: Untagged
@@ -2623,6 +2624,21 @@ MonoBehaviour:
   TacoOjoCeraPrefab: {fileID: 703855943089720841, guid: 6b7151b8ff9618b41a0de356c1fd9b7c, type: 3}
   TacoOjoCeraRoachPrefab: {fileID: 5195318097909924389, guid: 60966d03cf6b66a4dbf1f97026c143b5, type: 3}
   TacoOjoCeraUnasPrefab: {fileID: 7669322135059394677, guid: 210598ec624363e4faddd17c67a856e2, type: 3}
+--- !u!114 &1273641968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273641964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f578b4804896f40a0a4ecb1a4898a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadOriginal: 0
+  velocidad: 0
+  slowPuddle: 0
 --- !u!1 &1368717029
 GameObject:
   m_ObjectHideFlags: 0
@@ -2813,7 +2829,7 @@ GameObject:
   - component: {fileID: 1447026044}
   - component: {fileID: 1447026043}
   m_Layer: 5
-  m_Name: Button
+  m_Name: DarPedido
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

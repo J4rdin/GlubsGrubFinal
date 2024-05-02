@@ -55,7 +55,7 @@ public class ButtonController : MonoBehaviour
 
     public void Playgame()
     {
-        SceneManager.LoadScene("FoodTruckTopDown");
+        SceneManager.LoadScene("Clientes");
     }
 
     public void GoOptions()
@@ -77,15 +77,15 @@ public class ButtonController : MonoBehaviour
     {
         WorkStation.entered = false;
         SceneManager.UnloadSceneAsync("Meat");
-        //if(Player.item != "0000")
+        //if (Player.item != "0000")
         //    DestroyFood();
     }
     public void GoBackBread()
     {
         WorkStation.entered = false;
         SceneManager.UnloadSceneAsync("Bread");
-        //    if (Player.item != "0000")
-        //        DestroyFood();
+        //if (Player.item != "0000")
+        //    DestroyFood();
     }
 
     public void GoBackClients()
