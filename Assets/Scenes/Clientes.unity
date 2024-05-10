@@ -610,6 +610,7 @@ MonoBehaviour:
   - {fileID: 321405602}
   panel: {fileID: 1734601271}
   Client: {fileID: 951574849}
+  ClientX: {fileID: 21300000, guid: 3c2b9f0f011507645929eef535610105, type: 3}
   Client1: {fileID: 21300000, guid: 3c2b9f0f011507645929eef535610105, type: 3}
   Client2: {fileID: 21300000, guid: 4069f50eb58e3ca4eab09d4fe0f90009, type: 3}
   Client3: {fileID: 21300000, guid: 02d773d4631415642ab013b61c62abdc, type: 3}
@@ -1329,7 +1330,7 @@ Transform:
   m_GameObject: {fileID: 529383168}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.15, y: 0.6, z: 0}
+  m_LocalPosition: {x: -3.3, y: 1.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1984,6 +1985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8315f4072468e642a4e39c46a9dc393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puntoOrigen: {fileID: 1735193108}
   puntoFinal: {fileID: 1854329}
   velocidad: 3
   velocidadOpacidad: 0.5
@@ -3531,6 +3533,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1734601271}
   m_CullTransparentMesh: 1
+--- !u!1 &1735193107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1735193108}
+  m_Layer: 0
+  m_Name: Punto origen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1735193108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735193107}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.44, y: 0.28, z: 0.13909298}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1831858017}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1818779270
 GameObject:
   m_ObjectHideFlags: 0
@@ -3646,6 +3679,7 @@ Transform:
   m_Children:
   - {fileID: 951574851}
   - {fileID: 1854329}
+  - {fileID: 1735193108}
   - {fileID: 1273641966}
   - {fileID: 1818779271}
   m_Father: {fileID: 0}
