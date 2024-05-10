@@ -57,7 +57,8 @@ public class ControladorDialogo : MonoBehaviour
         ActivarImagenPedido(false);  //Desactivar las imágenes al principio
         ActivarBotonesRespuesta(false);  // Desactivar los botones al principio
         MostrarSiguienteLinea();
-        neutrochoice = Random.Range(0, 2); // 0 = Enfadado , 1 = Feliz      
+        neutrochoice = Random.Range(0, 2); // 0 = Enfadado , 1 = Feliz
+        print(pedido);
     }
 
         void Update()
@@ -92,9 +93,8 @@ public class ControladorDialogo : MonoBehaviour
             {
                 print("Bien????");
                 textoDialogo.text = "¡Muchas gracias!"; //Lo que dice al darle el pedido bien
-                Player.item = "0000";
                 dinero = dinero + 10 + propinas;
-                
+                DestroyFood();
                 SpriteChoice = Random.Range(1, 4);
                 if (SpriteChoice == PreviousClient)
                 {
@@ -104,18 +104,23 @@ public class ControladorDialogo : MonoBehaviour
                 switch (SpriteChoice)
                 {
                     case 1:
+                        //ClienteAppear.activarTransicion = true;
                         Client.gameObject.GetComponent<SpriteRenderer>().sprite = Client1;
                         break;
                     case 2:
+                        //ClienteAppear.activarTransicion = true;
                         Client.gameObject.GetComponent<SpriteRenderer>().sprite = Client2;
                         break;
                     case 3:
+                        //ClienteAppear.activarTransicion = true;
                         Client.gameObject.GetComponent<SpriteRenderer>().sprite = Client3;
                         break;
                     case 4:
+                        //ClienteAppear.activarTransicion = true;
                         Client.gameObject.GetComponent<SpriteRenderer>().sprite = Client4;
                         break;
                 }
+                Player.item = "0000";
                 PedirComida();
             }
             else if (Player.item != pedido && pedido_entregable == true)
