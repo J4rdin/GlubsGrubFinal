@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ButtonController : MonoBehaviour
 {
-    public static bool AtBread = true;
+    public static bool AtBread = false;
     public static bool AtClientes = true;
     public GameObject BoxFront;
     public GameObject BoxBack;
@@ -51,6 +51,7 @@ public class ButtonController : MonoBehaviour
     }
     public void GoMeat()
     {
+        AtBread = false;
         AtClientes = false;
         SceneManager.LoadScene("Meat", LoadSceneMode.Additive);
         if (SceneManager.GetSceneByName("ToppingsYSalsas").isLoaded)
@@ -66,6 +67,7 @@ public class ButtonController : MonoBehaviour
     }
     public void GoToppings()
     {
+        AtBread = false;
         AtClientes = false;
         SceneManager.LoadScene("ToppingsYSalsas", LoadSceneMode.Additive);
         if (SceneManager.GetSceneByName("Bread").isLoaded)
@@ -87,7 +89,7 @@ public class ButtonController : MonoBehaviour
 
     public void GoOptions()
     {
-        SceneManager.LoadScene("Options");
+        SceneManager.LoadScene("Options", LoadSceneMode.Additive);
     }
 
     public void GoPause()
@@ -100,6 +102,10 @@ public class ButtonController : MonoBehaviour
         SceneManager.LoadScene("Menu");
     }
 
+    public void GoBackOptions()
+    {
+        SceneManager.UnloadSceneAsync("Options");
+    }
     public void GoBackMeat()
     {
         AtClientes = true;

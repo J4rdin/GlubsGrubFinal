@@ -10,7 +10,11 @@ public class TemporizadorCoccion : MonoBehaviour
     private float tiempoRestante;
     private bool coccionEnCurso = false;
 
+    public string FoodPrefab = "";
+
     public GameObject TacoPrefab;
+    public GameObject ArepaPrefab;
+    public GameObject NachoPrefab;
 
     public GameObject FinalPosition;
 
@@ -39,8 +43,8 @@ public class TemporizadorCoccion : MonoBehaviour
             {
                 // Cocción completa
                 //Cambia animacion del sprite                
-                carne1.transform.position = FinalPosition.transform.position;
-                if (Food.CompareTag("1000"))
+                //carne1.transform.position = FinalPosition.transform.position;
+                if (WhatsOnThePan.BreadNum == 1)
                 {
                     Player.item = FoodID.PanTaco;
                     print(Player.item);
@@ -48,17 +52,29 @@ public class TemporizadorCoccion : MonoBehaviour
                     DestroyFood();
                     Debug.Log("Food Destroyed");
                     Instantiate(TacoPrefab, FinalPosition.transform.position, transform.rotation);
-                    Debug.Log("Food Spawned");
+                    Debug.Log("Food Spawned -> taco");
                 }
 
-                if (Food.CompareTag("0100"))
+                else if (WhatsOnThePan.BreadNum == 2)
                 {
-                    Player.item = FoodID.Ojo;
+                    Player.item = FoodID.PanArepa;
+                    print(Player.item);
+                    Debug.Log("Item Changed");
+                    DestroyFood();
+                    Debug.Log("Food Destroyed");
+                    Instantiate(ArepaPrefab, FinalPosition.transform.position, transform.rotation);
+                    Debug.Log("Food Spawned -> arepa");
                 }
 
-                if (Food.CompareTag("0200"))
+               else if (WhatsOnThePan.BreadNum == 3)
                 {
-                    Player.item = FoodID.Gusanos;
+                    Player.item = FoodID.PanNacho;
+                    print(Player.item);
+                    Debug.Log("Item Changed");
+                    DestroyFood();
+                    Debug.Log("Food Destroyed");
+                    Instantiate(NachoPrefab, FinalPosition.transform.position, transform.rotation);
+                    Debug.Log("Food Spawned -> nachos");
                 }
 
                 coccionEnCurso = false;

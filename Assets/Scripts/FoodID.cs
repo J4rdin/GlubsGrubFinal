@@ -9,7 +9,8 @@ public class FoodID : MonoBehaviour
 
     //Ingredients
     public static string PanTaco = "1000";
-    public static string PanTortilla = "2000";
+    public static string PanArepa = "2000";
+    public static string PanNacho = "3000";
     public static string Ojo = "0100";
     public static string Gusanos = "0200";
     public static string Moco = "0010";
