@@ -10,6 +10,7 @@ public class Temporizador : MonoBehaviour
     private bool coccionEnCurso = false;
     public Slider sliderCoccion;
     public GameObject Comida;
+    public GameObject posicionFinal;
     [SerializeField]
     float x;
     [SerializeField]
@@ -26,7 +27,7 @@ public class Temporizador : MonoBehaviour
 
         if (tiempoRestante <= 0f)
         {
-            Comida.transform.position = new Vector3(x, y, 0f);
+            Comida.transform.position = posicionFinal.transform.position;
         }
     }
 }

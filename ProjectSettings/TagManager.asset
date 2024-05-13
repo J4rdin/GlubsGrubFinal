@@ -3,7 +3,44 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - 1000
+  - 0100
+  - 1100
+  - 1110
+  - 1111
+  - 1112
+  - 1200
+  - 1210
+  - 1211
+  - 1212
+  - 1220
+  - 1221
+  - 1222
+  - 1120
+  - 1121
+  - 1122
+  - CajaDerecha
+  - 2000
+  - 0200
+  - 0010
+  - 0020
+  - 0030
+  - 0002
+  - 0001
+  - popup
+  - InteractableObject
+  - Basura
+  - TacoOjoMocoRoach
+  - 1300
+  - 1310
+  - 1311
+  - 1312
+  - 1320
+  - 1322
+  - 1321
+  - 1313
+  - 1323
   layers:
   - Default
   - TransparentFX

@@ -12,6 +12,8 @@ public class TemporizadorCoccion : MonoBehaviour
 
     public GameObject TacoPrefab;
 
+    public GameObject FinalPosition;
+
     [SerializeField]
     float x;
     [SerializeField]
@@ -37,7 +39,7 @@ public class TemporizadorCoccion : MonoBehaviour
             {
                 // Cocción completa
                 //Cambia animacion del sprite                
-                carne1.transform.position = new Vector3(x, y, 0f);
+                carne1.transform.position = FinalPosition.transform.position;
                 if (Food.CompareTag("1000"))
                 {
                     Player.item = FoodID.PanTaco;
@@ -45,7 +47,7 @@ public class TemporizadorCoccion : MonoBehaviour
                     Debug.Log("Item Changed");
                     DestroyFood();
                     Debug.Log("Food Destroyed");
-                    Instantiate(TacoPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+                    Instantiate(TacoPrefab, FinalPosition.transform.position, transform.rotation);
                     Debug.Log("Food Spawned");
                 }
 

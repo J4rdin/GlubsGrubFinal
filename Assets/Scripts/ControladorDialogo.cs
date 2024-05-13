@@ -22,6 +22,8 @@ public class ControladorDialogo : MonoBehaviour
     public Sprite Client2;
     public Sprite Client3;
     public Sprite Client4; /***/
+    public Sprite Client5;
+    public Sprite Client6;
 
     int panes = 0;
     int carnes = 0;
@@ -41,7 +43,7 @@ public class ControladorDialogo : MonoBehaviour
     public static string pedido = "";       //Pan - Carne - Salsa - Topping
 
     public int propinas = 3;
-    public int dinero = 0;
+    public static int dinero = 0;
 
     public int neutrochoice = 0;
     bool pedido_entregable = false;
@@ -113,14 +115,14 @@ public class ControladorDialogo : MonoBehaviour
                 }
                 print("Past CambioDeDia");
                 //Sprite change
-                SpriteChoice = Random.Range(1, 5); /***/
+                SpriteChoice = Random.Range(1, 7); /***/
                 print("Random Client = ");
                 print(SpriteChoice);
                 if (SpriteChoice == PreviousClient)
                 {
                     SpriteChoice += 1;
                     print("+1 to sprite choice");
-                    if (SpriteChoice == 5)
+                    if (SpriteChoice == 7)
                     {
                         SpriteChoice = 1;
                         print("5->1");
@@ -147,6 +149,16 @@ public class ControladorDialogo : MonoBehaviour
                     case 4:
                         print("Client = Manuel");
                         ClientX = Client4;
+                        StartCoroutine(Waiter()); //Waiter
+                        break;
+                    case 5:
+                        print("Client = Victor");
+                        ClientX = Client5;
+                        StartCoroutine(Waiter()); //Waiter
+                        break;
+                    case 6:
+                        print("Client = Camas");
+                        ClientX = Client6;
                         StartCoroutine(Waiter()); //Waiter
                         break;
                 }
@@ -334,7 +346,7 @@ public class ControladorDialogo : MonoBehaviour
     void GenerarPedidoDia_1() //Un pan, 3 carnes
     {
         panes = 1;
-        carnes = Random.Range(1, 4); //The number is wrong but the food simply hastn been added yet NVM
+        carnes = Random.Range(1, 3); //The number is wrong but the food simply hastn been added yet NVM
         toppings = 0;
         salsas = 0;
 
@@ -448,7 +460,7 @@ public class ControladorDialogo : MonoBehaviour
     {
         panes = 1;
         carnes = Random.Range(1, 4);
-        salsas = Random.Range(1, 4);
+        salsas = Random.Range(1, 3);
         toppings = Random.Range(1, 4);
 
         switch (panes)
@@ -534,7 +546,7 @@ public class ControladorDialogo : MonoBehaviour
     {
         panes = Random.Range(1, 4);
         carnes = Random.Range(1, 4);
-        salsas = Random.Range(1, 4);
+        salsas = Random.Range(1, 3);
         toppings = Random.Range(1, 4);
 
         switch (panes)

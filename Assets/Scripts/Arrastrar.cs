@@ -9,7 +9,7 @@ public class Arrastrar : MonoBehaviour
     private Vector3 posicionInicial;
     private Rigidbody2D rb;
     public static bool sobreSarten = false;
-
+    public GameObject CookSpot;
 
     void Start()
     {
@@ -51,7 +51,7 @@ public class Arrastrar : MonoBehaviour
         if (sobreSarten && !coccionEnCurso)
         {
             // Calcular posición central de la caja derecha
-            Vector3 posicionCajaDerecha = new Vector3(1.25f, 0f, 0f); // Ajusta esto según la posición de tu caja derecha
+            Vector3 posicionCajaDerecha = CookSpot.transform.position; // Ajusta esto según la posición de tu caja derecha
             transform.position = posicionCajaDerecha;
 
             
