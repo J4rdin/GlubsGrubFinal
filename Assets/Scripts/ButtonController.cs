@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ButtonController : MonoBehaviour
 {
+    public static bool Paused = false;
     public static bool AtBread = false;
     public static bool AtClientes = true;
     public GameObject BoxFront;
@@ -12,6 +13,12 @@ public class ButtonController : MonoBehaviour
     public GameObject canvasClientes;
     void Update()
     {
+        
+        if (Input.GetKeyDown(KeyCode.Escape) && Paused == false)
+        {
+            Paused = true;
+            GoPause();
+        }
         if (AtBread == true)
         {
             BoxBack.SetActive(false);
@@ -94,7 +101,7 @@ public class ButtonController : MonoBehaviour
 
     public void GoPause()
     {
-        SceneManager.LoadScene("Pause");
+        SceneManager.LoadScene("Pause", LoadSceneMode.Additive);
     }
 
     public void GoMenu()
@@ -106,6 +113,13 @@ public class ButtonController : MonoBehaviour
     {
         SceneManager.UnloadSceneAsync("Options");
     }
+
+    public void GoBackPause()
+    {
+        Paused = false;
+        SceneManager.UnloadSceneAsync("Pause");
+    }
+
     public void GoBackMeat()
     {
         AtClientes = true;
