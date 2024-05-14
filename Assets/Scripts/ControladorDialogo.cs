@@ -346,7 +346,7 @@ public class ControladorDialogo : MonoBehaviour
     void GenerarPedidoDia_1() //Un pan, 3 carnes
     {
         panes = 1;
-        carnes = Random.Range(1, 3); //The number is wrong but the food simply hastn been added yet NVM
+        carnes = Random.Range(1, 4);
         toppings = 0;
         salsas = 0;
 
@@ -394,7 +394,7 @@ public class ControladorDialogo : MonoBehaviour
     {
         panes = 1;
         carnes = Random.Range(1, 4);
-        salsas = Random.Range(1, 4);
+        salsas = Random.Range(1, 3);
 
         switch (panes)  //Añadir panes
         {
@@ -459,9 +459,9 @@ public class ControladorDialogo : MonoBehaviour
     void GenerarPedidoDia_3() //Un pan, 3 carnes, 3 salsas, 3 topppings
     {
         panes = 1;
-        carnes = Random.Range(1, 4);
-        salsas = Random.Range(1, 3);
-        toppings = Random.Range(1, 4);
+        carnes = Random.Range(1, 3);
+        salsas = Random.Range(1, 4);
+        toppings = Random.Range(1, 3);
 
         switch (panes)
         {
@@ -544,10 +544,11 @@ public class ControladorDialogo : MonoBehaviour
 
     void GenerarPedidoDia_4_5_6_7() //3 panes, 3 carnes, 3 salsas, 3 topppings
     {
-        panes = Random.Range(1, 4);
+        //panes = Random.Range(1, 4);
+        panes = Random.Range(1, 3);
         carnes = Random.Range(1, 4);
         salsas = Random.Range(1, 3);
-        toppings = Random.Range(1, 4);
+        toppings = Random.Range(1, 3);
 
         switch (panes)
         {

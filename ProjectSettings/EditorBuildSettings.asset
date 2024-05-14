@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Clientes.unity
     guid: e2ac863c41018fb4cadff0fe7ed45f78
   - enabled: 1
-    path: Assets/Scenes/ClientesOLD.unity
-    guid: 6c2ec4ec79d1b724cb8055d8bfe43594
-  - enabled: 1
     path: Assets/Scenes/FoodTruckTopDown.unity
     guid: 264ba326389feb6498861ed5ec855004
   - enabled: 1

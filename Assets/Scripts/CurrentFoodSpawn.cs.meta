@@ -3,7 +3,74 @@ guid: 200080ead871f8942861b9b81dbf337d
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - TacoPrefab: {instanceID: 0}
+  - ArepaPrefab: {instanceID: 0}
+  - NachoPrefab: {instanceID: 0}
+  - OjoPrefab: {instanceID: 0}
+  - TacoOjoPrefab: {instanceID: 0}
+  - TacoOjoMocoPrefab: {instanceID: 0}
+  - TacoOjoMocoRoachPrefab: {instanceID: 0}
+  - TacoOjoMocoUnasPrefab: {instanceID: 0}
+  - TacoGusanosPrefab: {instanceID: 0}
+  - TacoGusanosMocoPrefab: {instanceID: 0}
+  - TacoGusanosMocoRoachPrefab: {instanceID: 0}
+  - TacoGusanosMocoUnasPrefab: {instanceID: 0}
+  - TacoGusanosCeraPrefab: {instanceID: 0}
+  - TacoGusanosCeraRoachPrefab: {instanceID: 0}
+  - TacoGusanosCeraUnasPrefab: {instanceID: 0}
+  - TacoOjoCeraPrefab: {instanceID: 0}
+  - TacoOjoCeraRoachPrefab: {instanceID: 0}
+  - TacoOjoCeraUnasPrefab: {instanceID: 0}
+  - TacoEspongaPrefab: {instanceID: 0}
+  - TacoEspongaMocoPrefab: {instanceID: 0}
+  - TacoEspongaMocoRoachPrefab: {instanceID: 0}
+  - TacoEspongaMocoUnasPrefab: {instanceID: 0}
+  - TacoEspongaCeraPrefab: {instanceID: 0}
+  - TacoEspongaCeraRoachPrefab: {instanceID: 0}
+  - TacoEspongaCeraUnasPrefab: {instanceID: 0}
+  - ArepaOjoPrefab: {instanceID: 0}
+  - ArepaOjoMocoPrefab: {instanceID: 0}
+  - ArepaOjoMocoRoachPrefab: {instanceID: 0}
+  - ArepaOjoMocoUnasPrefab: {instanceID: 0}
+  - ArepaOjoCeraPrefab: {instanceID: 0}
+  - ArepaOjoCeraRoachPrefab: {instanceID: 0}
+  - ArepaOjoCeraUnasPrefab: {instanceID: 0}
+  - ArepaGusanosPrefab: {instanceID: 0}
+  - ArepaGusanosMocoPrefab: {instanceID: 0}
+  - ArepaGusanosMocoRoachPrefab: {instanceID: 0}
+  - ArepaGusanosMocoUnasPrefab: {instanceID: 0}
+  - ArepaGusanosCeraPrefab: {instanceID: 0}
+  - ArepaGusanosCeraRoachPrefab: {instanceID: 0}
+  - ArepaGusanosCeraUnasPrefab: {instanceID: 0}
+  - ArepaEspongaPrefab: {instanceID: 0}
+  - ArepaEspongaMocoPrefab: {instanceID: 0}
+  - ArepaEspongaMocoRoachPrefab: {instanceID: 0}
+  - ArepaEspongaMocoUnasPrefab: {instanceID: 0}
+  - ArepaEspongaCeraPrefab: {instanceID: 0}
+  - ArepaEspongaCeraRoachPrefab: {instanceID: 0}
+  - ArepaEspongaCeraUnasPrefab: {instanceID: 0}
+  - NachosOjoPrefab: {instanceID: 0}
+  - NachosOjoMocoPrefab: {instanceID: 0}
+  - NachosOjoMocoRoachPrefab: {instanceID: 0}
+  - NachosOjoMocoUnasPrefab: {instanceID: 0}
+  - NachosOjoCeraPrefab: {instanceID: 0}
+  - NachosOjoCeraRoachPrefab: {instanceID: 0}
+  - NachosOjoCeraUnasPrefab: {instanceID: 0}
+  - NachosGusanosPrefab: {instanceID: 0}
+  - NachosGusanosMocoPrefab: {instanceID: 0}
+  - NachosGusanosMocoRoachPrefab: {instanceID: 0}
+  - NachosGusanosMocoUnasPrefab: {instanceID: 0}
+  - NachosGusanosCeraPrefab: {instanceID: 0}
+  - NachosGusanosCeraRoachPrefab: {instanceID: 0}
+  - NachosGusanosCeraUnasPrefab: {instanceID: 0}
+  - NachosEspongaPrefab: {instanceID: 0}
+  - NachosEspongaMocoPrefab: {instanceID: 0}
+  - NachosEspongaMocoRoachPrefab: {instanceID: 0}
+  - NachosEspongaMocoUnasPrefab: {instanceID: 0}
+  - NachosEspongaCeraPrefab: {instanceID: 0}
+  - NachosEspongaCeraRoachPrefab: {instanceID: 0}
+  - NachosEspongaCeraUnasPrefab: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -260,6 +260,87 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &203308369
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.088338494
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.088338494
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.088338494
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875782164608469197, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: CookSpot
+      value: 
+      objectReference: {fileID: 1340029126}
+    - target: {fileID: 6877644344133677075, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 87ad7d8c7180fab4d98b44f8f30ed959, type: 3}
+    - target: {fileID: 8916801417546115977, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_Name
+      value: TacoCrudo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957812677591688154, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_Radius
+      value: 9
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
 --- !u!1 &243028522
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,11 +657,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.91
+      value: 15.66
       objectReference: {fileID: 0}
     - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.72
+      value: 7.95
       objectReference: {fileID: 0}
     - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -625,6 +706,75 @@ PrefabInstance:
     - target: {fileID: 8916801417546115977, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
       propertyPath: m_Name
       value: Nachos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916801417546115977, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_TagString
+      value: 3000
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+--- !u!1001 &1060965293
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875782164608469197, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: CookSpot
+      value: 
+      objectReference: {fileID: 1340029126}
+    - target: {fileID: 6877644344133677075, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 963f3010d67195c44a60b433330aaccc, type: 3}
+    - target: {fileID: 8916801417546115977, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_Name
+      value: NachosCrudos
       objectReference: {fileID: 0}
     - target: {fileID: 8916801417546115977, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
       propertyPath: m_TagString
@@ -969,11 +1119,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.17
+      value: 10.31
       objectReference: {fileID: 0}
     - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.73
+      value: 8.6
       objectReference: {fileID: 0}
     - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1732,6 +1882,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TacoPrefab: {fileID: 8916801417546115977, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+  ArepaPrefab: {fileID: 0}
+  NachoPrefab: {fileID: 0}
   OjoPrefab: {fileID: 7677861150718325464, guid: 3adc29d50653af044b40259eafeafd35, type: 3}
   TacoOjoPrefab: {fileID: 185872236371866537, guid: c43e210c0445a3d458173bb5980b13fe, type: 3}
   TacoOjoMocoPrefab: {fileID: 499860135482693963, guid: 5f772b5437fab8b4f985e99b28e0980a, type: 3}
@@ -1744,9 +1896,58 @@ MonoBehaviour:
   TacoGusanosCeraPrefab: {fileID: 4876670327016837696, guid: c9eb3c7b05fe5f14681b551118a2c0db, type: 3}
   TacoGusanosCeraRoachPrefab: {fileID: 8104544332879780469, guid: 2b95680d89c2d3748b7019560e746ab8, type: 3}
   TacoGusanosCeraUnasPrefab: {fileID: 2397572377790486873, guid: 630983f99a605ea4eb69bae75f315b27, type: 3}
-  TacoOjoCeraPrefab: {fileID: 0}
-  TacoOjoCeraRoachPrefab: {fileID: 0}
-  TacoOjoCeraUnasPrefab: {fileID: 0}
+  TacoOjoCeraPrefab: {fileID: 703855943089720841, guid: 6b7151b8ff9618b41a0de356c1fd9b7c, type: 3}
+  TacoOjoCeraRoachPrefab: {fileID: 5195318097909924389, guid: 60966d03cf6b66a4dbf1f97026c143b5, type: 3}
+  TacoOjoCeraUnasPrefab: {fileID: 7669322135059394677, guid: 210598ec624363e4faddd17c67a856e2, type: 3}
+  TacoEspongaPrefab: {fileID: 8555550980296633525, guid: b51ed35433a8da143a7b75e44ad14210, type: 3}
+  TacoEspongaMocoPrefab: {fileID: 7371909386874135250, guid: 63c64931b4e682d4e935dc1a85293e37, type: 3}
+  TacoEspongaMocoRoachPrefab: {fileID: 7939326470791200899, guid: 11e325d35cdc84243a9063a5202cec5b, type: 3}
+  TacoEspongaMocoUnasPrefab: {fileID: 2889280566219006816, guid: f904b4e5dad814b4caae4d274b544695, type: 3}
+  TacoEspongaCeraPrefab: {fileID: 5493670805529036174, guid: 8c738aca3bf4faf42b4a01b6db230874, type: 3}
+  TacoEspongaCeraRoachPrefab: {fileID: 5571404997334535223, guid: b9b93f58eaf2ff748b5427bc08d8f15f, type: 3}
+  TacoEspongaCeraUnasPrefab: {fileID: 1280907960867996772, guid: 44b2ebea4441a644c98304f594756402, type: 3}
+  ArepaOjoPrefab: {fileID: 3275044673201242404, guid: 7b77b0943a04e104880e6747b984ba81, type: 3}
+  ArepaOjoMocoPrefab: {fileID: 9108020123843177731, guid: a7081ddbd54c45646ad0f9467c24c1dd, type: 3}
+  ArepaOjoMocoRoachPrefab: {fileID: 2308590432387674105, guid: 9429ef6ed64f44a4b8ea62a47a7f3c88, type: 3}
+  ArepaOjoMocoUnasPrefab: {fileID: 7014618595660543961, guid: d169e6695904ad34f80fd446778b1911, type: 3}
+  ArepaOjoCeraPrefab: {fileID: 6375914324520548187, guid: 0be2c3f96d350f542afd1763d97660c3, type: 3}
+  ArepaOjoCeraRoachPrefab: {fileID: 3820149216637216066, guid: 7af02ba59290bba4f8eb865b105d27b2, type: 3}
+  ArepaOjoCeraUnasPrefab: {fileID: 2027767669502088450, guid: 1c7106964eef00c4098e20c456ca018b, type: 3}
+  ArepaGusanosPrefab: {fileID: 4081336050437221538, guid: 2482abb3f72299d4c8ef778ccdb9b9e9, type: 3}
+  ArepaGusanosMocoPrefab: {fileID: 2768600165160645753, guid: 9266982cc8ec5874483e1841683346e2, type: 3}
+  ArepaGusanosMocoRoachPrefab: {fileID: 4329763750794648394, guid: 62c29291126d2594ebbbd11dd7383cb7, type: 3}
+  ArepaGusanosMocoUnasPrefab: {fileID: 3582565490769763137, guid: 3a57b472f997ca54a9fcdb2fcc630dcc, type: 3}
+  ArepaGusanosCeraPrefab: {fileID: 2743634580064995330, guid: 6885037148a021f42b6d6587982cb27d, type: 3}
+  ArepaGusanosCeraRoachPrefab: {fileID: 172179984528178038, guid: 7336d04b8f5279e41b263ea329daef27, type: 3}
+  ArepaGusanosCeraUnasPrefab: {fileID: 9075805545281294497, guid: bcebb513f2bd020458849640f92470a4, type: 3}
+  ArepaEspongaPrefab: {fileID: 93682179651755467, guid: 1cd425605015d93458b7ef5db7cd2716, type: 3}
+  ArepaEspongaMocoPrefab: {fileID: 3997318005732694551, guid: 05455a9ad2b112c40a34936d9fba9293, type: 3}
+  ArepaEspongaMocoRoachPrefab: {fileID: 4504461362571946144, guid: eab86f39dcc3c3147baae8339c8ebbb8, type: 3}
+  ArepaEspongaMocoUnasPrefab: {fileID: 3737974545341894961, guid: efb1c64228ac45e40a3c21434198802c, type: 3}
+  ArepaEspongaCeraPrefab: {fileID: 2676516569434903553, guid: 1be80d51ce8bda84d864c0405b607056, type: 3}
+  ArepaEspongaCeraRoachPrefab: {fileID: 5418187965469185230, guid: 8cf4e963ef82aa248b33506c109a259a, type: 3}
+  ArepaEspongaCeraUnasPrefab: {fileID: 1975066553435553868, guid: 7d09bef5cac6e114caefb87e8fb8245f, type: 3}
+  NachosOjoPrefab: {fileID: 0}
+  NachosOjoMocoPrefab: {fileID: 0}
+  NachosOjoMocoRoachPrefab: {fileID: 0}
+  NachosOjoMocoUnasPrefab: {fileID: 0}
+  NachosOjoCeraPrefab: {fileID: 0}
+  NachosOjoCeraRoachPrefab: {fileID: 0}
+  NachosOjoCeraUnasPrefab: {fileID: 0}
+  NachosGusanosPrefab: {fileID: 0}
+  NachosGusanosMocoPrefab: {fileID: 0}
+  NachosGusanosMocoRoachPrefab: {fileID: 0}
+  NachosGusanosMocoUnasPrefab: {fileID: 0}
+  NachosGusanosCeraPrefab: {fileID: 0}
+  NachosGusanosCeraRoachPrefab: {fileID: 0}
+  NachosGusanosCeraUnasPrefab: {fileID: 0}
+  NachosEspongaPrefab: {fileID: 0}
+  NachosEspongaMocoPrefab: {fileID: 0}
+  NachosEspongaMocoRoachPrefab: {fileID: 0}
+  NachosEspongaMocoUnasPrefab: {fileID: 0}
+  NachosEspongaCeraPrefab: {fileID: 0}
+  NachosEspongaCeraRoachPrefab: {fileID: 0}
+  NachosEspongaCeraUnasPrefab: {fileID: 0}
 --- !u!1 &2091788956
 GameObject:
   m_ObjectHideFlags: 0
@@ -1933,6 +2134,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2141690068
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875782164608469197, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: CookSpot
+      value: 
+      objectReference: {fileID: 1340029126}
+    - target: {fileID: 6877644344133677075, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5aed11ba745d9fd4dbf79d9ed1b62843, type: 3}
+    - target: {fileID: 8916801417546115977, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_Name
+      value: ArepaCruda
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916801417546115977, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_TagString
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957812677591688154, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+      propertyPath: m_Radius
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
 --- !u!1001 &1252731266443781925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1994,63 +2268,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6ad462b840cd6c40b9865f9adec1a4d, type: 3}
---- !u!1001 &2055040102590817476
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5230576097053256313, guid: 3dd55aca89dfb2f4ab30ee77d30fb19d, type: 3}
-      propertyPath: m_Name
-      value: Taco Crudo
-      objectReference: {fileID: 0}
-    - target: {fileID: 6988800799158534163, guid: 3dd55aca89dfb2f4ab30ee77d30fb19d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.84
-      objectReference: {fileID: 0}
-    - target: {fileID: 6988800799158534163, guid: 3dd55aca89dfb2f4ab30ee77d30fb19d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 7.98
-      objectReference: {fileID: 0}
-    - target: {fileID: 6988800799158534163, guid: 3dd55aca89dfb2f4ab30ee77d30fb19d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6988800799158534163, guid: 3dd55aca89dfb2f4ab30ee77d30fb19d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6988800799158534163, guid: 3dd55aca89dfb2f4ab30ee77d30fb19d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6988800799158534163, guid: 3dd55aca89dfb2f4ab30ee77d30fb19d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6988800799158534163, guid: 3dd55aca89dfb2f4ab30ee77d30fb19d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6988800799158534163, guid: 3dd55aca89dfb2f4ab30ee77d30fb19d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6988800799158534163, guid: 3dd55aca89dfb2f4ab30ee77d30fb19d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6988800799158534163, guid: 3dd55aca89dfb2f4ab30ee77d30fb19d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3dd55aca89dfb2f4ab30ee77d30fb19d, type: 3}
 --- !u!1001 &7559754310334862873
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2061,11 +2278,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.67
+      value: 12.64
       objectReference: {fileID: 0}
     - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.45
+      value: 9.1
       objectReference: {fileID: 0}
     - target: {fileID: 4928804453370084098, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2123,11 +2340,13 @@ SceneRoots:
   - {fileID: 2091788960}
   - {fileID: 1102991880}
   - {fileID: 7559754310334862873}
+  - {fileID: 203308369}
   - {fileID: 1519214464}
+  - {fileID: 2141690068}
   - {fileID: 682684263}
+  - {fileID: 1060965293}
   - {fileID: 1252731266443781925}
   - {fileID: 2060640527}
-  - {fileID: 2055040102590817476}
   - {fileID: 2132215229}
   - {fileID: 107447556}
   - {fileID: 1700098134}
