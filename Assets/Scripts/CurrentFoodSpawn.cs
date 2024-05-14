@@ -273,92 +273,92 @@ public class CurrentFoodSpawn : MonoBehaviour
             Instantiate(ArepaEspongaCeraUnasPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
         }
 
-        //if (Player.item == FoodID.TacoEsponga)
-        //{
-        //    Instantiate(TacoEspongaPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaMoco)
-        //{
-        //    Instantiate(TacoEspongaMocoPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaMocoRoach)
-        //{
-        //    Instantiate(TacoEspongaMocoRoachPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaMocoUnas)
-        //{
-        //    Instantiate(TacoEspongaMocoUnasPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaCera)
-        //{
-        //    Instantiate(TacoEspongaCeraPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaCeraRoach)
-        //{
-        //    Instantiate(TacoEspongaCeraRoachPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaCeraUnas)
-        //{
-        //    Instantiate(TacoEspongaCeraUnasPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
+        if (Player.item == FoodID.NachosOjo)
+        {
+            Instantiate(NachosOjoPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosOjoMoco)
+        {
+            Instantiate(NachosOjoMocoPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosOjoMocoRoach)
+        {
+            Instantiate(NachosOjoMocoRoachPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosOjoMocoUnas)
+        {
+            Instantiate(NachosOjoMocoUnasPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosOjoCera)
+        {
+            Instantiate(NachosOjoCeraPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosOjoCeraRoach)
+        {
+            Instantiate(NachosOjoCeraRoachPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosOjoCeraUnas)
+        {
+            Instantiate(NachosOjoCeraUnasPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
 
-        //if (Player.item == FoodID.TacoEsponga)
-        //{
-        //    Instantiate(TacoEspongaPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaMoco)
-        //{
-        //    Instantiate(TacoEspongaMocoPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaMocoRoach)
-        //{
-        //    Instantiate(TacoEspongaMocoRoachPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaMocoUnas)
-        //{
-        //    Instantiate(TacoEspongaMocoUnasPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaCera)
-        //{
-        //    Instantiate(TacoEspongaCeraPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaCeraRoach)
-        //{
-        //    Instantiate(TacoEspongaCeraRoachPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaCeraUnas)
-        //{
-        //    Instantiate(TacoEspongaCeraUnasPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
+        if (Player.item == FoodID.NachosGusanos)
+        {
+            Instantiate(NachosGusanosPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosGusanosMoco)
+        {
+            Instantiate(NachosGusanosMocoPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosGusanosMocoRoach)
+        {
+            Instantiate(NachosGusanosMocoRoachPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosGusanosMocoUnas)
+        {
+            Instantiate(NachosGusanosMocoUnasPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosGusanosCera)
+        {
+            Instantiate(NachosGusanosCeraPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosGusanosCeraRoach)
+        {
+            Instantiate(NachosGusanosCeraRoachPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosGusanosCeraUnas)
+        {
+            Instantiate(NachosGusanosCeraUnasPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
 
-        //if (Player.item == FoodID.TacoEsponga)
-        //{
-        //    Instantiate(TacoEspongaPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaMoco)
-        //{
-        //    Instantiate(TacoEspongaMocoPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaMocoRoach)
-        //{
-        //    Instantiate(TacoEspongaMocoRoachPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaMocoUnas)
-        //{
-        //    Instantiate(TacoEspongaMocoUnasPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaCera)
-        //{
-        //    Instantiate(TacoEspongaCeraPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaCeraRoach)
-        //{
-        //    Instantiate(TacoEspongaCeraRoachPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
-        //if (Player.item == FoodID.TacoEspongaCeraUnas)
-        //{
-        //    Instantiate(TacoEspongaCeraUnasPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
-        //}
+        if (Player.item == FoodID.NachosEsponga)
+        {
+            Instantiate(NachosEspongaPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosEspongaMoco)
+        {
+            Instantiate(NachosEspongaMocoPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosEspongaMocoRoach)
+        {
+            Instantiate(NachosEspongaMocoRoachPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosEspongaMocoUnas)
+        {
+            Instantiate(NachosEspongaMocoUnasPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosEspongaCera)
+        {
+            Instantiate(NachosEspongaCeraPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosEspongaCeraRoach)
+        {
+            Instantiate(NachosEspongaCeraRoachPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
+        if (Player.item == FoodID.NachosEspongaCeraUnas)
+        {
+            Instantiate(NachosEspongaCeraUnasPrefab, new Vector3(1f, -3f, 0f), transform.rotation);
+        }
 
     }
 
@@ -368,8 +368,3 @@ public class CurrentFoodSpawn : MonoBehaviour
         
     }
 }
-
-//if (Player.item == FoodID.)
-//{
-//    Instantiate(Prefab, new Vector3(1f, -3f, 0f), transform.rotation);
-//}

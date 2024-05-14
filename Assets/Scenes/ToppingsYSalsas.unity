@@ -396,8 +396,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TacoPrefab: {fileID: 8916801417546115977, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
-  ArepaPrefab: {fileID: 0}
-  NachoPrefab: {fileID: 0}
+  ArepaPrefab: {fileID: 169881213824566673, guid: b0e66ba72aceacd478b829a5ff9f7aaf, type: 3}
+  NachoPrefab: {fileID: 7127619961454923818, guid: d3c6b436c481fbe4f9084d5d1ea19509, type: 3}
   OjoPrefab: {fileID: 7677861150718325464, guid: 3adc29d50653af044b40259eafeafd35, type: 3}
   TacoOjoPrefab: {fileID: 185872236371866537, guid: c43e210c0445a3d458173bb5980b13fe, type: 3}
   TacoOjoMocoPrefab: {fileID: 499860135482693963, guid: 5f772b5437fab8b4f985e99b28e0980a, type: 3}
@@ -441,27 +441,27 @@ MonoBehaviour:
   ArepaEspongaCeraPrefab: {fileID: 2676516569434903553, guid: 1be80d51ce8bda84d864c0405b607056, type: 3}
   ArepaEspongaCeraRoachPrefab: {fileID: 5418187965469185230, guid: 8cf4e963ef82aa248b33506c109a259a, type: 3}
   ArepaEspongaCeraUnasPrefab: {fileID: 1975066553435553868, guid: 7d09bef5cac6e114caefb87e8fb8245f, type: 3}
-  NachosOjoPrefab: {fileID: 0}
-  NachosOjoMocoPrefab: {fileID: 0}
-  NachosOjoMocoRoachPrefab: {fileID: 0}
-  NachosOjoMocoUnasPrefab: {fileID: 0}
-  NachosOjoCeraPrefab: {fileID: 0}
-  NachosOjoCeraRoachPrefab: {fileID: 0}
-  NachosOjoCeraUnasPrefab: {fileID: 0}
-  NachosGusanosPrefab: {fileID: 0}
-  NachosGusanosMocoPrefab: {fileID: 0}
-  NachosGusanosMocoRoachPrefab: {fileID: 0}
-  NachosGusanosMocoUnasPrefab: {fileID: 0}
-  NachosGusanosCeraPrefab: {fileID: 0}
-  NachosGusanosCeraRoachPrefab: {fileID: 0}
-  NachosGusanosCeraUnasPrefab: {fileID: 0}
-  NachosEspongaPrefab: {fileID: 0}
-  NachosEspongaMocoPrefab: {fileID: 0}
-  NachosEspongaMocoRoachPrefab: {fileID: 0}
-  NachosEspongaMocoUnasPrefab: {fileID: 0}
-  NachosEspongaCeraPrefab: {fileID: 0}
-  NachosEspongaCeraRoachPrefab: {fileID: 0}
-  NachosEspongaCeraUnasPrefab: {fileID: 0}
+  NachosOjoPrefab: {fileID: 3925558989090972958, guid: bdcb01ab424955c4aadb3e81bc9e16bc, type: 3}
+  NachosOjoMocoPrefab: {fileID: 7296917532143430348, guid: b9550d0a743e4124cb2edfeb1758e65a, type: 3}
+  NachosOjoMocoRoachPrefab: {fileID: 1926467351745586561, guid: 3f278875cfa9ae14a81738aa5609d478, type: 3}
+  NachosOjoMocoUnasPrefab: {fileID: 652226994659129900, guid: 3ccee8a70c06a5d42a80f38043b86d32, type: 3}
+  NachosOjoCeraPrefab: {fileID: 5382688140279641468, guid: bf2f2fc9132d0aa4698a0d1dc2f10fb8, type: 3}
+  NachosOjoCeraRoachPrefab: {fileID: 7374446056514479320, guid: 233ec26dd5d8e2a4193667d1d109cd26, type: 3}
+  NachosOjoCeraUnasPrefab: {fileID: 2554736579415138570, guid: 8218f7e66d279a743af09c1f7f937d32, type: 3}
+  NachosGusanosPrefab: {fileID: 2196375308846793612, guid: 6422048033c63cb4a8a8b984d1afccdd, type: 3}
+  NachosGusanosMocoPrefab: {fileID: 1664688845064836052, guid: 600e1fb47aa3cbd49aabde1942f67a25, type: 3}
+  NachosGusanosMocoRoachPrefab: {fileID: 4354915531288660615, guid: fa29eaec815585f4890db854d223e544, type: 3}
+  NachosGusanosMocoUnasPrefab: {fileID: 2766237521283745238, guid: 79caee17965da804696aa3a167b6f546, type: 3}
+  NachosGusanosCeraPrefab: {fileID: 6531626591546964329, guid: 76393fdf32a754445b8434eeaa57249f, type: 3}
+  NachosGusanosCeraRoachPrefab: {fileID: 3763329194419314917, guid: c7e1c59a7912f964a81133c8fb1174f3, type: 3}
+  NachosGusanosCeraUnasPrefab: {fileID: 5377903245701930974, guid: f4918d869e5454e42a3f5ebaa6578006, type: 3}
+  NachosEspongaPrefab: {fileID: 2556026341437873101, guid: 99e62e690ccdf0e4a8ff8b6652549421, type: 3}
+  NachosEspongaMocoPrefab: {fileID: 8687024425393184933, guid: c33fb250d09b0534d97e81e49753f2f6, type: 3}
+  NachosEspongaMocoRoachPrefab: {fileID: 1755956594669484034, guid: 018b5eb1c185e5b4884027bd1a0e3d8f, type: 3}
+  NachosEspongaMocoUnasPrefab: {fileID: 4299440402157043081, guid: 20052ccccb4b9e94586644b737919131, type: 3}
+  NachosEspongaCeraPrefab: {fileID: 2399298060930090909, guid: 4f399ec3f2e9c944394856ddbcd7a1d9, type: 3}
+  NachosEspongaCeraRoachPrefab: {fileID: 1856923105690028251, guid: 9180203a3f6b56d4ebff17d8db7e629e, type: 3}
+  NachosEspongaCeraUnasPrefab: {fileID: 7111907505188235166, guid: 311ea35d5584cfe45bc4cd1457ff0728, type: 3}
 --- !u!1 &106608705
 GameObject:
   m_ObjectHideFlags: 0
